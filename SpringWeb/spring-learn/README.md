@@ -41,4 +41,16 @@ Implement REST services that return India country details and all configured cou
 ## Steps Completed
 1. Created `CountryController.java` with request mapping at `/country` (returns India country bean) and `/countries` (returns list of all country beans loaded from `country.xml`).
 
+---
+
+# REST - Get Country based on Country Code
+
+## Scenario
+Implement a REST service that returns country details for a given country code, case-insensitively.
+
+## Steps Completed
+1. Created `CountryService.java` with a method `getCountry(String code)` that loads all countries from `country.xml` and streams them to find a case-insensitive code match.
+2. Updated `CountryController.java` to autowire `CountryService` and handle GET requests at `/countries/{code}` using `@PathVariable`.
+
+
 
