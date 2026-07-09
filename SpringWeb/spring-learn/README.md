@@ -31,3 +31,14 @@ Write a REST service that returns "Hello World!!" at `/hello`.
 1. Created `HelloController.java` with a GET mapping for `/hello`.
 2. Included start and end logger messages inside `sayHello()`.
 
+---
+
+# REST - Country Web Service & Get All Countries
+
+## Scenario
+Implement REST services that return India country details and all configured countries.
+
+## Steps Completed
+1. Created `CountryController.java` with request mapping at `/country` (returns India country bean) and `/countries` (returns list of all country beans loaded from `country.xml`).
+
+
