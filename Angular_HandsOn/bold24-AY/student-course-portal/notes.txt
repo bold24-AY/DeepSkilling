@@ -1,0 +1,16 @@
+angular.json: CLI configuration file for build, test, and serve settings.
+tsconfig.json: Main TypeScript compiler configuration for the workspace.
+tsconfig.app.json: App-specific TypeScript compiler configuration.
+package.json: Configures npm package dependencies and build scripts.
+src/main.ts: Entry point of the application, used to bootstrap the app.
+src/app/app.config.ts: Configures global application providers and routing.
+src/app/app.ts: Root component of the application.
+src/index.html: Main HTML file that serves the single page application.
+
+Production Budgets:
+- Initial bundle budget: maximumWarning = 500kB, maximumError = 1MB.
+- Component style budget: maximumWarning = 4kB, maximumError = 8kB.
+Budgets control the maximum size limits for the compiled output. A warning is thrown if a threshold is exceeded, and the build fails if the error threshold is reached, helping to prevent large bundle sizes and ensure good performance.
+
+Build Output:
+- The compiled application code is located in the main JS file under the dist/ folder (e.g., main-OZ2T5IEA.js).
