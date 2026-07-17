@@ -1,0 +1,52 @@
+.course-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    transition: all 0.3s ease;
+}
+
+.card--enrolled {
+    background-color: #e6f7ff;
+    border-color: #91d5ff;
+}
+
+.card--full {
+    background-color: #fff0f6;
+    border-color: #ffadd2;
+}
+
+.expanded {
+    min-height: 200px;
+}
+
+.badge {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+    margin-top: 5px;
+}
+
+.badge-passed {
+    background-color: green;
+}
+
+.badge-failed {
+    background-color: red;
+}
+
+.badge-pending {
+    background-color: grey;
+}
+
+.button-group {
+    margin-top: 10px;
+}
+
+.button-group button {
+    margin-right: 5px;
+}
